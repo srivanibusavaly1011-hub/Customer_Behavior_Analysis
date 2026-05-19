@@ -7,7 +7,7 @@ The project includes:
 
 Data loading and cleaning using Python
 Exploratory Data Analysis (EDA)
-SQL analysis using PostgreSQL/MySQL/SQL Server
+SQL analysis using SQL Server
 Interactive Power BI dashboard creation
 Business report preparation
 Presentation creation using Gamma
@@ -31,7 +31,7 @@ Tools & Technologies
 Python – Data cleaning and EDA
 Pandas & NumPy – Data manipulation
 Matplotlib & Seaborn – Data visualization
-SQL (PostgreSQL/MySQL/SQL Server) – Data querying and analysis
+SQL Server – Data querying and analysis
 Power BI – Dashboard development
 Gamma – Presentation creation
 Jupyter Notebook – Analysis environment
