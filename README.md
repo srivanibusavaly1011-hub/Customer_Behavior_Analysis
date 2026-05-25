@@ -1,3 +1,4 @@
+<img width="1366" height="749" alt="dashboard_preview" src="https://github.com/user-attachments/assets/18ce62ef-f564-4929-aa60-cc9fd5a84bb3" />
 # 🛍️ Customer Shopping Behavior Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python) ![SQL](https://img.shields.io/badge/SQL-Server-CC2927?logo=microsoftsqlserver) ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi) ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter) ![License](https://img.shields.io/badge/License-MIT-green)
