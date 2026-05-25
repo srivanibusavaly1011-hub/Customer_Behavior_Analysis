@@ -98,3 +98,28 @@ Open the .pbix file in Power BI Desktop
 Conclusion
 
 This project demonstrates practical skills in data cleaning, analysis, SQL querying, dashboard development, and business reporting. It helps in understanding customer shopping behavior and generating meaningful business insights.
+
+## Key Findings
+
+- **Clothing dominates**: Highest revenue (~$100K) and sales volume (~1,700 units) — nearly 2x the next category (Accessories).
+- **Young Adults are the top segment**: Lead both revenue (~$60K) and purchase volume (~1,000 units) across all age groups.
+- **Subscription gap**: Only 27% of 3,900 customers are subscribed — a major growth opportunity for the business.
+- **Middle-aged customers** rank second in spend, showing broad cross-demographic demand for top categories.
+- **Outerwear underperforms**: Lowest revenue and sales — likely seasonal or a pricing/visibility issue worth investigating.
+
+## Dashboard Highlights
+
+| Metric | Value |
+|---|---|
+| Total Customers | 3,900 |
+| Average Purchase Amount | $59.76 |
+| Average Review Rating | 3.75 / 5 |
+| Subscribed Customers | 27% |
+| Top Revenue Category | Clothing (~$100K) |
+| Top Customer Segment | Young Adults (~$60K revenue) |
+
+## Tools Used
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn) — Data cleaning & EDA
+- **SQL Server** — Business queries & aggregations
+- **Power BI** — Interactive dashboard
+- **Jupyter Notebook** — Analysis environment
