@@ -7,7 +7,8 @@ The project includes:
 
 Data loading and cleaning using Python
 Exploratory Data Analysis (EDA)
-SQL analysis using SQL Server
+SQL analysis using SQL Server<img width="1366" height="749" alt="dashboard_preview" src="https://github.com/user-attachments/assets/e6f71f66-baaf-4020-a5d4-fd53dee99dee" />
+
 Interactive Power BI dashboard creation
 Business report preparation
 Presentation creation using Gamma
