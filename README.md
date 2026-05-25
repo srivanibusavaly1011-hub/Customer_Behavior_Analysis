@@ -1,125 +1,110 @@
-Customer Shopping Behavior Analysis
-Overview
+# 🛍️ Customer Shopping Behavior Analysis
 
-This project focuses on analyzing customer shopping behavior using Python, SQL, and Power BI. The goal is to understand customer purchasing patterns, spending habits, and business insights through data analysis and visualization.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python) ![SQL](https://img.shields.io/badge/SQL-Server-CC2927?logo=microsoftsqlserver) ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi) ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter) ![License](https://img.shields.io/badge/License-MIT-green)
 
-The project includes:
+**Author:** Srivani Busavaly
+**Contact:** busavalysrivani@gmail.com | [LinkedIn](https://linkedin.com/in/srivanibusavaly)
 
-Data loading and cleaning using Python
-Exploratory Data Analysis (EDA)
-SQL analysis using SQL Server<img width="1366" height="749" alt="dashboard_preview" src="https://github.com/user-attachments/assets/e6f71f66-baaf-4020-a5d4-fd53dee99dee" />
+---
 
-Interactive Power BI dashboard creation
-Business report preparation
-Presentation creation using Gamma
-Dataset
+## 📌 Project Overview
 
-The dataset contains customer shopping information such as:
+An end-to-end data analysis project examining customer shopping behavior across 3,900 customers to uncover purchasing patterns, spending habits, and business growth opportunities.
 
-Customer ID
-Age
-Gender
-Category
-Purchase Amount
-Payment Method
-Shipping Type
-Subscription Status
-Frequency of Purchases
+**Full pipeline:** Data Cleaning → EDA → SQL Analysis → Power BI Dashboard → Business Report → Presentation
 
-The data was used to identify customer trends and business insights.
+---
 
-Tools & Technologies
-Python – Data cleaning and EDA
-Pandas & NumPy – Data manipulation
-Matplotlib & Seaborn – Data visualization
-SQL Server – Data querying and analysis
-Power BI – Dashboard development
-Gamma – Presentation creation
-Jupyter Notebook – Analysis environment
-Project Steps
-1. Data Loading
-Imported dataset into Python using Pandas
-Checked data structure and column information
-2. Data Cleaning
-Handled missing values
-Removed duplicates
-Corrected data types
-Standardized column names
-3. Exploratory Data Analysis (EDA)
-Analyzed customer purchase behavior
-Identified top-selling categories
-Compared spending patterns
-Visualized trends using charts and graphs
-4. SQL Analysis
+## 📊 Dashboard Preview
 
-Performed SQL queries to:
+![Customer Behavior Dashboard](dashboard_preview.png)
 
-Calculate total revenue
-Find average purchase amount
-Analyze subscription-based customers
-Compare shipping methods
-Generate business insights
-5. Dashboard Creation
+> *Interactive Power BI dashboard with subscription filters, gender/category slicers, revenue by age group, and category-wise sales analysis.*
 
-Built an interactive Power BI dashboard with:
+---
 
-Sales overview
-Customer insights
-Purchase trends
-Category-wise analysis
-Filters and KPIs
-6. Report & Presentation
-Created a business report summarizing findings
-Designed a professional PPT using Gamma
-Dashboard Highlights
-Total Sales Analysis
-Customer Segmentation
-Top Product Categories
-Shipping Type Comparison
-Subscription Status Insights
-Purchase Trend Visualization
-Key Results
-Identified customer purchasing trends
-Found high-revenue product categories
-Analyzed customer subscription impact on sales
-Improved understanding of customer behavior through visual insights
-How to Run the Project
-Python Analysis
-Open Jupyter Notebook
-Install required libraries:
-pip install pandas numpy matplotlib seaborn
-Run the notebook file:
-jupyter notebook
-SQL Queries
-Import dataset into PostgreSQL/MySQL/SQL Server
-Run the SQL scripts provided in the project
-Power BI Dashboard
-Open the .pbix file in Power BI Desktop
-Conclusion
-
-This project demonstrates practical skills in data cleaning, analysis, SQL querying, dashboard development, and business reporting. It helps in understanding customer shopping behavior and generating meaningful business insights.
-
-## Key Findings
-
-- **Clothing dominates**: Highest revenue (~$100K) and sales volume (~1,700 units) — nearly 2x the next category (Accessories).
-- **Young Adults are the top segment**: Lead both revenue (~$60K) and purchase volume (~1,000 units) across all age groups.
-- **Subscription gap**: Only 27% of 3,900 customers are subscribed — a major growth opportunity for the business.
-- **Middle-aged customers** rank second in spend, showing broad cross-demographic demand for top categories.
-- **Outerwear underperforms**: Lowest revenue and sales — likely seasonal or a pricing/visibility issue worth investigating.
-
-## Dashboard Highlights
+## 🔑 Key Findings
 
 | Metric | Value |
 |---|---|
 | Total Customers | 3,900 |
 | Average Purchase Amount | $59.76 |
 | Average Review Rating | 3.75 / 5 |
-| Subscribed Customers | 27% |
+| Subscribed Customers | 27% (1,053) |
+| Non-Subscribed Customers | 73% (2,847) |
 | Top Revenue Category | Clothing (~$100K) |
 | Top Customer Segment | Young Adults (~$60K revenue) |
 
-## Tools Used
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn) — Data cleaning & EDA
-- **SQL Server** — Business queries & aggregations
-- **Power BI** — Interactive dashboard
-- **Jupyter Notebook** — Analysis environment
+**Business Insights:**
+- 🏆 **Clothing dominates** revenue (~$100K) and sales volume (~1,700 units) — nearly **2× Accessories**, the second-highest category
+- 👥 **Young Adults are the #1 segment**, leading both revenue (~$60K) and purchase volume (~1,000 units) across all age groups
+- 📉 **73% of customers are unsubscribed** — a significant retention and loyalty program opportunity; subscribed users show higher engagement
+- 🧑‍🦳 **Middle-aged customers** rank second in both revenue and sales, showing strong cross-demographic demand
+- 🧥 **Outerwear underperforms** across both revenue and units sold — likely seasonal demand or a pricing/visibility issue worth investigating
+
+---
+
+## 🗂️ Dataset
+
+| Column | Description |
+|---|---|
+| Customer ID | Unique identifier |
+| Age / Gender | Demographics |
+| Category | Product category (Clothing, Accessories, Footwear, Outerwear) |
+| Purchase Amount | Transaction value in USD |
+| Payment Method | Card, PayPal, Cash, etc. |
+| Shipping Type | Standard, Express, 2-Day, Next Day Air, etc. |
+| Subscription Status | Yes / No |
+| Frequency of Purchases | How often the customer shops |
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool | Purpose |
+|---|---|
+| Python (Pandas, NumPy) | Data loading, cleaning, transformation |
+| Matplotlib & Seaborn | EDA visualizations |
+| SQL Server | Business queries & aggregations |
+| Power BI | Interactive dashboard |
+| Jupyter Notebook | Analysis environment |
+| Gamma | Presentation design |
+
+---
+
+## 📁 Project Files
+
+| File | Description |
+|---|---|
+| `Customer_Shopping.ipynb` | Python EDA notebook |
+| `Customer_Behavior_Analysis.sql` | SQL queries for business analysis |
+| `Customer_Behavior_Dashboard.pbix` | Power BI dashboard file |
+| `Customer Shopping Behavior Analysis.pdf` | Business report |
+| `Customer-Shopping-Behavior-Analysis.pptx` | Presentation deck |
+| `customer_shopping_behavior.csv.csv` | Dataset |
+
+---
+
+## ▶️ How to Run
+
+**Python / EDA**
+```bash
+pip install pandas numpy matplotlib seaborn
+jupyter notebook Customer_Shopping.ipynb
+```
+
+**SQL Analysis**
+- Import the CSV into SQL Server / MySQL / PostgreSQL
+- Run `Customer_Behavior_Analysis.sql`
+
+**Power BI Dashboard**
+- Open `Customer_Behavior_Dashboard.pbix` in Power BI Desktop
+
+---
+
+## 📝 Conclusion
+
+This project demonstrates a complete data analyst workflow — from raw data to business insights. Key competencies showcased: data cleaning, exploratory analysis, SQL querying, dashboard development, and stakeholder-ready reporting.
+
+---
+*⭐ If you find this project useful, please give it a star!*
