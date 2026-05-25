@@ -94,7 +94,7 @@ jupyter notebook Customer_Shopping.ipynb
 ```
 
 **SQL Analysis**
-- Import the CSV into SQL Server / MySQL / PostgreSQL
+- Import the CSV into SQL Server
 - Run `Customer_Behavior_Analysis.sql`
 
 **Power BI Dashboard**
